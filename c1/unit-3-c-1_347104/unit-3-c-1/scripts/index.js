@@ -20,5 +20,8 @@ let productObj={
 arr.push(productObj)
 console.log(arr)
 localStorage.setItem("products",JSON.stringify(arr))
-window.location.href="inventory.html";
+document.getElementById("type").value=null
+document.getElementById("desc").value=null
+document.getElementById("price").value=null
+document.getElementById("image").value=null
 }
